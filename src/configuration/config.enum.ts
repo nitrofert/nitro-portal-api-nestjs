@@ -1,0 +1,10 @@
+export enum Config  {
+    JWT_SECRET="JWT_SECRET",
+    TITLE="TITLE",
+    TYPE_DB="TYPE_DB",
+    HOST_DB="HOST_DB",
+    PORT_DB="PORT_DB",
+    USERNAME_DB="USERNAME_DB",
+    PASSWORD_DB="PASSWORD_DB",
+    DATABASE_DB="DATABASE_DB"
+}

@@ -10,6 +10,6 @@ export class AppService {
   }
   getHello(): string {
     
-    return this.configService.TITLE;
+    return this.configService.TITLE+' '+this.configService.HOST_DB+' '+this.configService.PORT_DB+' '+config;
   }
 }

@@ -12,6 +12,13 @@ import * as Joi from 'joi';
         validationSchema: Joi.object({
           JWT_SECRET: Joi.string().required(),
           TITLE:Joi.string().required(),
+          TYPE_DB:Joi.string().required(),
+          HOST_DB:Joi.string().required(),
+          PORT_DB:Joi.number().required(),
+          USERNAME_DB:Joi.string().required(),
+          PASSWORD_DB:Joi.string().required(),
+          DATABASE_DB:Joi.string().required(),
+
         })
       })],
 })
